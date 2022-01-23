@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo-splash{
+    position: fixed;
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(2);
+    animation: splash-ani 2s linear infinite;
+}
+
+@keyframes splash-ani {
+    from{scale: 2;}
+    to { scale: 1;}
+    
+}
+
+header{
+    position: absolute;
+    width: 1016px;
+    height: 104px;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    box-shadow: ;
+}
+ 
+.cabecalho-descricao{
+    position: absolute;
+    left: 291px;
+    top: 44px;
+    bottom: 92.56%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #808080;
+    height: 17px;
+    line-height: 16.96px;
+    
+}
+
+.logo-header{
+    display: none;
+}
+
+.logo{
+    position: absolute;
+    width: 163px;
+    height: 40px;
+    left: 64px;
+    top: 32px;
+}
+
+.line{
+    position: absolute;
+    width: 24px;
+    height: 0px;
+    left: 259px;
+    top: 50px;
+    border: 1px solid #E6E8EB;
+    transform: rotate(90deg);
+}
+
+.hora{
+    position: absolute;
+    top: 44px;
+    bottom: 92.56%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #808080;
+    height: 17px;
+    line-height: 16.96px;
+    text-align: right;
+    right: 0;
+}
+
+.last{
+    position: absolute;
+    height: 20px;
+    left: 64px;
+    top: 136px;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #494D4B;
+}
+
+body{
+    background-color: rgba(247, 248, 250, 1);
+}
+
+.player{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 100vh;
+    background: #8257E5;
+    width: 424px;
+    height: 100vh;
+}
+
+.tocando-img{
+    position: absolute;
+    left: 30.19%;
+    right: 62.26%;
+    top: 4.39%;
+    bottom: 91.71%;
+}
+
+.tocando{
+    position: absolute;
+    left: 41.51%;
+    right: 29.95%;
+    top: 5%;
+    bottom: 92.56%;
+    font-family: Lexend;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.fotoAlbum{
+    position: absolute;
+    left: 15.09%;
+    right: 15.09%;
+    top: 17.32%;
+    bottom: 40.49%;
+    background: url(image.png);
+    mix-blend-mode: normal;
+    border-radius: 24px;
+    background: linear-gradient(143.8deg, rgba(145, 100, 250, 0.8) 0%, rgba(145, 100, 250, 0) 100%);
+    border: 1.5px dashed #9F75FF;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+
+.podcast{
+    position: absolute;
+    left: 19.1%;
+    right: 18.87%;
+    top: 63.41%;
+    bottom: 32.93%;
+    font-family: Lexend;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.integrantes{
+    position: absolute;
+    left: 37.97%;
+    right: 37.74%;
+    top: 68.05%;
+    bottom: 29.63%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #DCCDFF;
+}
+
+.playLine{
+    position: absolute;
+    left: 16.98%;
+    right: 16.98%;
+    top: 79.39%;
+    bottom: 18.54%;
+}
+
+.playComands{
+    position: absolute;
+    left: 19.81%;
+    right: 19.81%;
+    top: 86.34%;
+    bottom: 5.85%;
+}
+
+.tempototal{
+    position: absolute;
+    left: 74.29%;
+    right: 16.98%;
+    top: 79.39%;
+    bottom: 18.54%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.linha{
+    position: absolute;
+    left: 29.48%;
+    right: 59.2%;
+    top: 80.24%;
+    bottom: 19.27%;
+    background: #04D361;
+    border-radius: 10px;
+    width: 174px;
+    height: 4px;
+}
+
+.tempopassado{
+    position: absolute;
+    left: 16.98%;
+    right: 74.29%;
+    top: 79.39%;
+    bottom: 18.54%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
