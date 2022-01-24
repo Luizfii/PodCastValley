@@ -29,7 +29,6 @@ header{
     left: 0px;
     top: 0px;
     background-color: white;
-    box-shadow: ;
 }
  
 .cabecalho-descricao{
@@ -186,50 +185,72 @@ body{
     bottom: 18.54%;
 }
 
-.playComands{
-    position: absolute;
-    left: 19.81%;
-    right: 19.81%;
-    top: 86.34%;
-    bottom: 5.85%;
+body{
+    background-color: rgb(159, 63, 204);
 }
 
-.tempototal{
+.botaoRepeticao-container{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.botaoPlay-container img{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.botaoPause-container{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: none;
+    color: black;
+}
+
+.botaoAvanco-container img{
+
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.botãoRetrocesso-container {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.botaoAleatorio-container{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.navbar{
     position: absolute;
-    left: 74.29%;
-    right: 16.98%;
-    top: 79.39%;
-    bottom: 18.54%;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: #FFFFFF;
+    top: 708px;
+    height: 64px;
+    width: 256px;
+    left: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .linha{
     position: absolute;
-    left: 29.48%;
-    right: 59.2%;
-    top: 80.24%;
-    bottom: 19.27%;
-    background: #04D361;
+    left: 72px;
+    width: 282px;
+    height: 17px;
+    top: 652px;
     border-radius: 10px;
-    width: 174px;
-    height: 4px;
-}
+    opacity: 50%;
 
-.tempopassado{
-    position: absolute;
-    left: 16.98%;
-    right: 74.29%;
-    top: 79.39%;
-    bottom: 18.54%;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: #FFFFFF;
 }
